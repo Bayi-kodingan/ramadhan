@@ -1,3 +1,47 @@
-body {
-    margin-top: 55px;
+nav,
+nav a {
+    text-transform: uppercase;
+    color: white;
+}
+
+#aktif {
+    text-transform: uppercase;
+    color: #fff;
+    background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+    border-radius: .9rem;
+}
+
+#aktif:hover {
+    background-image: linear-gradient(to right, #00f2fe 0%, #4facfe 100%);
+}
+
+.card-body {
+    overflow: hidden;
+}
+
+#foto {
+    height: 400px;
+}
+
+img {
+    position: absolute;
+    /* top: 10px; */
+    bottom: -60px;
+    width: 75%;
+}
+
+@media screen and (max-width: 868px) {
+    img {
+        position: absolute;
+        bottom: -60px;
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    img {
+        position: absolute;
+        bottom: -60px;
+        width: 90%;
+    }
 }
